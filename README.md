@@ -1,8 +1,14 @@
-# React + Vite
+Todo App
+A simple Todo application built with React that allows users to create, manage, and filter tasks. This app also includes light mode and dark mode functionality, offering a customizable UI experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Create Tasks: Add new tasks with ease.
+Toggle Task Completion: Mark tasks as completed or active.
+Filter Tasks: View tasks based on their status (all, active, completed).
+Light and Dark Mode: Switch between light and dark modes for a personalized theme.
+Persistent Data: The app uses local storage to save tasks, ensuring they persist across page reloads.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+React: JavaScript library for building user interfaces.
+Tailwind CSS: Utility-first CSS framework for building custom designs.
+Local Storage: Used to store tasks persistently in the browser.
